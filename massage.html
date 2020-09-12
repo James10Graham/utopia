@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="js/main.js"></script>
+    <title>Utopia | Massage</title>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand nav-element" href="/">UTOPIA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-element" href="/reiki">REIKI</a></li>
+        <li><a class="nav-element" href="/tarot">TAROT</a></li>
+        <li><a class="nav-element" href="/massage">MASSAGE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center" style="padding: 0;">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav"></div>
+
+    <div class="col-sm-8 text-center" style="padding: 0;">
+        <div class="container" style="padding: 0; margin: 0; width: 100%; position: relative; text-align: center;">
+            <img src="/assets/reiki/massage_header.jpg" alt="reiki" style="width: 100%; padding: 0; margin: 0;">
+        </div>
+
+        <div class="container text-center" style="margin: 0; width: 100%;">
+            <h1 style="font-size: 70px; font-family: Bradley Hand, Brush Script MT, Brush Script Std, cursive;">Massage</h1>
+            <hr>
+            
+            <p>The healing touch of massage is one of the best gifts you can give your body. The popular massage focuses on helping you release stress and tension build up in the back, neck and shoulder areas.</p>
+            <p>Some of the general benefits of Massage are:</p>
+            <ul style="display: inline-block; text-align: left;">
+                <li>Improves circulation</li>
+                <li>Nourishes cells </li>
+                <li>Improves waste elimination</li>
+                <li>Promotes physical relaxation</li>
+                <li>Relief for tight muscles (knots) other aches and pains</li>
+                <li>Greater flexibility in movement</li>
+                <li>Improves general wellbeing and vitality</li>
+            </ul>
+
+            <p>Use the contact form to arrange your massage. In the comfort of your own home at a time that’s convenient to you. Due to travel this is limited to BB10 BB11 BB12 postcode areas.</p>
+            <hr>
+
+            <div class="container">
+                <p>For appointments further afield it may be possible to do multiple clients, feel free to contact me to discuss this option.</p>
+                <p>On initial contact you will be asked a few questions in relation to your medical history, to be sure the service is right for you. During this initial consultation you will also be asked about any previous experience of massage and the type of massage you prefer for example a soft or firm massage.</p>
+                <p>This is to ensure you get the best possible experience.</p>
+                <p>On Arrival you will be asked to fill out a medical questionnaire sign and date it. Without this the treatment cannot be carried out.</p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- contact -->
+        <div class="container text-center" style="margin: 0; width: 100%;">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 style="font-size: 70px; font-family: Bradley Hand, Brush Script MT, Brush Script Std, cursive;">Contact For Massage</h1>
+                <form id="contact" action="/massage/sent" method="POST" >
+                    <div class="input-group" style="margin: 5px 0px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="name" type="text" class="form-control" name="name" placeholder="NAME" style="font-size: 24px;" required>
+                    </div>
+                    <div class="input-group" style="margin: 5px 0px;">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input id="email" type="email" class="form-control" name="email" placeholder="EMAIL" style="font-size: 24px;" required>
+                    </div>
+                    <textarea name="message" id="message" cols="30" rows="8" placeholder="MESSAGE" class="text-center" style="width: 100%; font-size: 24px; border-radius: 5px; color: black; margin-top: 5px;" required></textarea>
+                    <input type="submit" style="width: 100%; font-size: 24px; border-radius: 5px; color: black; letter-spacing: 5px;">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-2 sidenav"></div>
+
+    
+  </div>
+  <div class="container" style="margin: 0; width: 100%; padding: 0;">
+  <footer >
+
+  </footer>
+  </div>
+</div>
+</body>
+</html>
